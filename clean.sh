@@ -1,0 +1,40 @@
+#!/bin/sh
+
+set -xe
+rm -rf \
+    Makefile.in \
+    ./ar-lib \
+    ./mdate-sh \
+    ./py-compile \
+    ./test-driver \
+    ./ylwrap \
+    .deps/ \
+    .dirstamp \
+    ./autom4te.cache \
+    ./autoscan.log \
+    ./autoscan-*.log \
+    ./aclocal.m4 \
+    ./compile \
+    ./config.cache \
+    ./config.guess \
+    ./config.h.in \
+    ./config.log \
+    ./config.status \
+    ./config.sub \
+    ./configure \
+    ./configure~ \
+    ./configure.scan \
+    ./depcomp \
+    ./install-sh \
+    ./missing \
+    ./stamp-h1 \
+    ./libtool \
+    ./ltmain.sh \
+    ./.libs/ \
+    ./texinfo.tex \
+    ./m4/libtool.m4 \
+    ./m4/ltoptions.m4 \
+    ./m4/ltsugar.m4 \
+    ./m4/ltversion.m4 \
+    ./m4/lt~obsolete.m4 \
+    ./Makefile \
