@@ -52,8 +52,8 @@ make
 Run these commands from inside your build directory:
 
 ```bash
-make install
-# make uninstall # To uninstall
+sudo make install
+# sudo make uninstall # To uninstall
 
 ```
 

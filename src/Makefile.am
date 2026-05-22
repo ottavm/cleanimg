@@ -1,6 +1,8 @@
 bin_PROGRAMS = cleanimg
+noinst_HEADERS = ../include/png.h
 cleanimg_SOURCES = main.c \
-				   png.c
+                   png.c
 
-cleanimg_CPPFLAGS = -Wall -Wextra -I$(top_srcdir)/include
+cleanimg_CFLAGS = -Wall -Wextra
+cleanimg_CPPFLAGS = -I$(srcdir)/../include
 
