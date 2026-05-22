@@ -11,6 +11,10 @@ Safely creates a clean copy **without altering the original file**.
 * **How it works:** It loads the image into an internal representation, strips the EXIF metadata, and saves it as a new, clean image.
 
 # Building
+## Requirements
+- A POSIX compliant Operating System with ```mmap()``` support.
+- A C Compiler. (C11 or later)
+
 - Clone this repository or [download the latest release](https://github.com/ottavm/cleamimg/releases/latest) (recommended)
 
 ### From Latest Release (Recommended)
